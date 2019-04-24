@@ -6,7 +6,7 @@ I know that there is an official JSON schema project out there. I've even tried 
 
 I decided I wanted something much simpler. Something that did not support 100% of all possible JSON structures, but could handle reasonable simple JSON structures. So I came upp with this:
 
-(do not expect example to have realistic data):
+(do not expect example to have realistic data, nor make sense in any way. Its the format that is important):
  
     schema = {
         header_?: "The nessage header.",
