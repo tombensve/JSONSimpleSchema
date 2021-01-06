@@ -2,7 +2,11 @@
 
 Since I'm using Groovy a lot and Groovy allows me to initialize Map with similar structures as JS JSON, and I could
 then generate JSON from the Maps, I though it would be nice to have frontend and backend work / look similar in its
-data handling. **I have decided that this was a bad idea!** I'm going to replace such stuctures with POJO models
+data handling. 
+
+**I have decided that this was a bad idea!** 
+
+I'm going to replace such stuctures with POJO models
 and serialize to / from JSON. Then this is not needed. And Groovy is super simple when it comes to creating java beans
 since it automatically creates getters and setters.
 
